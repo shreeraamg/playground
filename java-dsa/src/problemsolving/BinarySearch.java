@@ -1,6 +1,6 @@
 package problemsolving;
 
-// Binary Search for multiple occurences
+// First Position of Element in Sorted Array
 // https://www.geeksforgeeks.org/problems/binary-search-1587115620/1
 
 public class BinarySearch {
@@ -21,8 +21,8 @@ public class BinarySearch {
 
       if (nums[mid] == target) {
         ans = mid;
-      }
-      if (nums[mid] >= target) {
+        e = mid - 1;
+      } else if (nums[mid] > target) {
         e = mid - 1;
       } else {
         s = mid + 1;
