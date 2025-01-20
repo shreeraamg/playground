@@ -48,24 +48,4 @@ public class Leetcode34 {
     return ans;
 
   }
-
-  public static int binarySearch(int[] nums, int target, int start, int end) {
-    int ans = -1;
-    if (start > end) {
-      return ans;
-    }
-
-    int mid = start + (end - start) / 2;
-    if (nums[mid] == target) {
-      ans = mid;
-    }
-
-    if (target < nums[mid]) {
-      ans = binarySearch(nums, target, start, mid - 1);
-    } else {
-      ans = binarySearch(nums, target, mid + 1, end);
-    }
-
-    return ans;
-  }
 }
