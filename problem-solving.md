@@ -19,3 +19,7 @@
 
 - [Sum triangle from array](java-dsa/src/problemsolving/ConstructTriangle.java)
 - [Minimum and Maximum elements of array](java-dsa/src/problemsolving/MinMaxInArray.java)
+
+### Sorting
+
+- [Dutch National Flag Algorithm](java-dsa/src/problemsolving/GFG160Day21.java)
