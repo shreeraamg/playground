@@ -9,7 +9,7 @@
 - Provides redundancy, high availability and automatic failover.
 - Basis for all production deployments.
 
-![Replication in Mongo DB](./images/replication-in-mongodb.png)
+![Replication in Mongo DB](images/replication-in-mongodb.png)
 
 **Components of Replica Set**
 - **Primary Node**

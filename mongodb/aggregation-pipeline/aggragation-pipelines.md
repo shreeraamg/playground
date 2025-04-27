@@ -44,7 +44,7 @@ Returns something like:
 ]
 ```
 
-> 📘 Sample data used in this guide: [Dataset](./sample-dataset.md)
+> 📘 Sample data used in this guide: [Dataset](sample-dataset.md)
 
 What it does?
 

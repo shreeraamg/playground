@@ -148,4 +148,4 @@ kind create cluster --config cluster.yaml
 #### Read Also
 
 - [What is Kubernetes](./kubernetes-intro.md)
-- [Replicaset in Mongo DB](../replication-in-mongodb.md)
+- [Replicaset in Mongo DB](../../mongodb/replication-in-mongodb.md)
