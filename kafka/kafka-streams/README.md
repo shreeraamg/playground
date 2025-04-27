@@ -3,6 +3,8 @@
 Consider a kafka topic **orders** where every phase of an order in an e-commerce app is produced as a message. 
 For example ORDERED, SHIPPED, DISPATCHED, DELIVERED, CANCELLED, etc., 
 
+> The example demonstrated here uses [this](sample-dataset.md) sample dataset
+
 ![img.png](../images/kafka-orders-topic.png)
 
 **Scenario**: Count the number of orders being placed every minute, for analytics purpose
@@ -46,5 +48,17 @@ any upstream
 **Sink:** The destination, it might be a topic or a table view after the data has been processed by multiple nodes.
 Sink node should not have any downstream.
 
-### References:
+**KStream:** 
+- A stream of data or orders, that is flowing (in motion).
+- This is immutable. One stream can be filtered or transformed to another stream.
+- Example: Order 1001: Shipped, Order 1001: Delivered, both are different records in a stream.
+
+**KTable:**
+- KTable is stateful, meaning the data here is mutable.
+- Order 1001 Shipped, after delivering, the same Order 1001 is updated to Delivered.
+
+#### References:
 - [Apache Kafka Streams](https://kafka.apache.org/40/documentation/streams/core-concepts)
+
+#### Read Also
+- [KSQL Streams](ksql-streams.md)
