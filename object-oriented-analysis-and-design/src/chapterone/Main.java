@@ -4,13 +4,17 @@ import chapterone.enums.Builder;
 import chapterone.enums.Type;
 import chapterone.enums.Wood;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         Inventory inventory = new Inventory();
         initializeInventory(inventory);
 
-        Guitar result = inventory.search(new Guitar("", 0, Builder.TAYLOR, "814ce", Type.ACOUSTIC, Wood.ROSEWOOD, Wood.SPRUCE));
-        System.out.println(result);
+        List<Guitar> guitars = inventory.search(new GuitarSpec(Builder.TAYLOR, "814ce", Type.ACOUSTIC, Wood.ROSEWOOD, Wood.SPRUCE));
+        for (Guitar guitar : guitars) {
+            System.out.println(guitar);
+        }
     }
 
     public static void initializeInventory(Inventory inventory) {
@@ -24,6 +28,7 @@ public class Main {
         inventory.addGuitar("SN008", 1099.00, Builder.ESP, "Eclipse", Type.ELECTRIC, Wood.MAHOGANY, Wood.MAPLE);
         inventory.addGuitar("SN009", 499.00, Builder.EPIPHONE, "Les Paul Studio", Type.ELECTRIC, Wood.MAHOGANY, Wood.MAPLE);
         inventory.addGuitar("SN010", 699.00, Builder.SEAGULL, "S6 Original", Type.ACOUSTIC, Wood.WILD_CHERRY, Wood.CEDAR);
+        inventory.addGuitar("SN011", 1749.00, Builder.TAYLOR, "814ce", Type.ACOUSTIC, Wood.ROSEWOOD, Wood.SPRUCE);
 
     }
 

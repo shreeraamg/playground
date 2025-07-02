@@ -4,10 +4,7 @@ import chapterone.enums.Builder;
 import chapterone.enums.Type;
 import chapterone.enums.Wood;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 public class Inventory {
 
@@ -19,7 +16,7 @@ public class Inventory {
 
     public void addGuitar(String serialNumber, double price, Builder builder, String model,
                           Type type, Wood backWood, Wood topWood) {
-        Guitar guitar = new Guitar(serialNumber, price, builder, model, type, backWood, topWood);
+        Guitar guitar = new Guitar(serialNumber, price, new GuitarSpec(builder, model, type, backWood, topWood));
         guitars.add(guitar);
     }
 
@@ -32,33 +29,35 @@ public class Inventory {
         return optionalGuitar.orElse(null);
     }
 
-    public Guitar search(Guitar searchGuitar) {
+    public List<Guitar> search(GuitarSpec searchSpec) {
+        List<Guitar> searchResult = new ArrayList<>();
         for (Guitar guitar : guitars) {
-            if (searchGuitar.getBuilder() != guitar.getBuilder()) {
+            GuitarSpec spec = guitar.getSpec();
+            if (searchSpec.getBuilder() != spec.getBuilder()) {
                 continue;
             }
 
-            String model = searchGuitar.getModel();
-            if (model != null && !model.isEmpty() && !model.equalsIgnoreCase(guitar.getModel())) {
+            String model = searchSpec.getModel();
+            if (model != null && !model.isEmpty() && !model.equalsIgnoreCase(spec.getModel())) {
                 continue;
             }
 
-            if (searchGuitar.getType() != guitar.getType()) {
+            if (searchSpec.getType() != spec.getType()) {
                 continue;
             }
 
-            if (searchGuitar.getBackWood() != guitar.getBackWood()) {
+            if (searchSpec.getBackWood() != spec.getBackWood()) {
                 continue;
             }
 
-            if (searchGuitar.getTopWood() != guitar.getTopWood()) {
+            if (searchSpec.getTopWood() != spec.getTopWood()) {
                 continue;
             }
 
-            return guitar;
+            searchResult.add(guitar);
         }
 
-        return null;
+        return searchResult;
     }
 
 }
