@@ -15,9 +15,10 @@ and explored over time.
   - [Replica Set](mongodb/replication-in-mongodb.md)
   - [Aggregation Pipelines](mongodb/aggregation-pipeline/aggragation-pipelines.md)
 
-#### Streaming & Messaging**
+#### Streaming & Messaging
 
 - **Apache Kafka**
+  - [Zookeeper](kafka/zookeeper.md)
   - [Kafka Streams](kafka/kafka-streams/README.md)
 
 - **Confluent Kafka**
