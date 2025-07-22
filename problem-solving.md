@@ -24,3 +24,4 @@
 
 - [Dutch National Flag Algorithm](java-dsa/src/problemsolving/GFG160Day21.java)
 - [Sort 2D Array](java-dsa/src/problemsolving/array/Sort2DArray.java)
+- [Merge Sorted Array (with extra space)](python/problemsolving/merge_sroted_array.py)
