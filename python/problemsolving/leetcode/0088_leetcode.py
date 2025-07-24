@@ -1,8 +1,5 @@
-"""
-Merge Sorted Array (in place)
-https://leetcode.com/problems/merge-sorted-array/
-"""
-
+# Merge Sorted Array (in place)
+# https://leetcode.com/problems/merge-sorted-array/
 
 def merge(nums1, m, nums2, n):
     k = m + n - 1

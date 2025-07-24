@@ -1,8 +1,5 @@
-"""
-Reverse an Array
-https://www.geeksforgeeks.org/dsa/program-to-reverse-an-array
-"""
-
+# Reverse an Array
+# https://www.geeksforgeeks.org/dsa/program-to-reverse-an-array
 
 def reverse(arr):
     i, j = 0, len(arr) - 1

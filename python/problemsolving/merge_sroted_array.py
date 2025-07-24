@@ -1,7 +1,5 @@
-"""
-Merge Two Sorted Array (with extra space)
-https://www.geeksforgeeks.org/dsa/merge-two-sorted-arrays/
-"""
+# Merge Two Sorted Array (with extra space)
+# https://www.geeksforgeeks.org/dsa/merge-two-sorted-arrays/
 
 
 def merge_sorted_array(list1, list2):
