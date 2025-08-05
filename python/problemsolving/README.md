@@ -7,6 +7,7 @@
 3. [Reverse an Array](gfg160/003_problem.py)
 4. [Move Zeros to end of Array](gfg160/002_problem.py)
 5. [Two Sum](leetcode/0001_leetcode.py)
+6. [Build Array from Permutation](leetcode/1920_leetcode.py)
 
 ### Two Pointer
 
