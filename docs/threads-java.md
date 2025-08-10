@@ -74,6 +74,9 @@ particular task.
 - 10 being the highest priority
 - By default, when a thread gets initialized it 'll get priority as 5.
 
-Key points:
+**Key points:**
 
 - Threads are scheduled by JVM and OS, one cannot force the execution order.
+
+**Read Also**
+- [Asynchronous Programming in Java](async-java.md)
