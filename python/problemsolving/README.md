@@ -23,3 +23,7 @@
 ### Hashing
 
 1. [Two Sum](leetcode/0001_leetcode.py)
+
+### Recursion
+
+1. [Remove target character from string](0001_problem.py)
