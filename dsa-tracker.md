@@ -14,7 +14,7 @@
 
 ### Linked List
 
-- [ ] Singly Linked List
+- [x] [Singly Linked List](java-dsa/src/datastructures/linkedlist/singly)
 - [ ] Doubly Linked List
 - [ ] Circular Linked List
 

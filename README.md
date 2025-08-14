@@ -15,6 +15,11 @@ and explored over time.
   - [Threads in Java](docs/threads-java.md)
   - [Asynchronous Programming in Java](docs/async-java.md)
 
+#### Data Structures and Algorithms
+
+- [DSA Tracker](dsa-tracker.md) - checklist of data structures and algorithms implemented in Java
+- [Problem-Solving](python/problemsolving/README.md) - track of solved dsa problems in Python
+
 #### Databases
 
 - **Mongo DB**
