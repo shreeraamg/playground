@@ -22,6 +22,8 @@ and explored over time.
 
 #### Databases
 
+- [Row Level Security](docs/database/row-level-security.md)
+
 - **Mongo DB**
   - [Replica Set](mongodb/replication-in-mongodb.md)
   - [Aggregation Pipelines](mongodb/aggregation-pipeline/aggragation-pipelines.md)
