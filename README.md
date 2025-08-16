@@ -18,7 +18,8 @@ and explored over time.
 #### Data Structures and Algorithms
 
 - [DSA Tracker](dsa-tracker.md) - checklist of data structures and algorithms implemented in Java
-- [Problem-Solving](python/problemsolving/README.md) - track of solved dsa problems in Python
+- [Java Problem-Solving](java-dsa/src/problemsolving/README.md) - track of solved dsa problems in Java
+- [Python Problem-Solving](python/problemsolving/README.md) - track of solved dsa problems in Python
 
 #### Databases
 
