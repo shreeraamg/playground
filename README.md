@@ -12,6 +12,7 @@ and explored over time.
 #### Programming Languages
 
 - **Java**
+  - [Java Architecture](docs/java-architecture.md)
   - [Threads in Java](docs/threads-java.md)
   - [Asynchronous Programming in Java](docs/async-java.md)
 
