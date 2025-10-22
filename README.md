@@ -2,7 +2,7 @@
 
 ### 🧠 Learning Archive: DSA, System Design & more...
 
-Welcome to my playground. This repository is a collection of concepts, code snippets, solutions and that I've learned 
+Welcome to my playground. This repository is a collection of concepts, code snippets, solutions and that I've learned
 and explored over time.
 
 ---
@@ -12,9 +12,9 @@ and explored over time.
 #### Programming Languages
 
 - **Java**
-  - [Java Architecture](docs/java-architecture.md)
-  - [Threads in Java](docs/threads-java.md)
-  - [Asynchronous Programming in Java](docs/async-java.md)
+    - [Java Architecture](docs/java-architecture.md)
+    - [Threads in Java](docs/threads-java.md)
+    - [Asynchronous Programming in Java](docs/async-java.md)
 
 #### Data Structures and Algorithms
 
@@ -27,30 +27,32 @@ and explored over time.
 - [Row Level Security](docs/database/row-level-security.md)
 
 - **Mongo DB**
-  - [Replica Set](mongodb/replication-in-mongodb.md)
-  - [Aggregation Pipelines](mongodb/aggregation-pipeline/aggragation-pipelines.md)
+    - [Replica Set](mongodb/replication-in-mongodb.md)
+    - [Aggregation Pipelines](mongodb/aggregation-pipeline/aggragation-pipelines.md)
 
 #### Streaming & Messaging
 
+- [Event Driven Architecture](kafka/eda.md)
+
 - **Apache Kafka**
-  - [Zookeeper](kafka/zookeeper.md)
-  - [Kafka Streams](kafka/kafka-streams/README.md)
+    - [Zookeeper](kafka/zookeeper.md)
+    - [Kafka Streams](kafka/kafka-streams/README.md)
 
 - **Confluent Kafka**
-  - [KSQL Streams](kafka/kafka-streams/ksql-streams.md)
+    - [KSQL Streams](kafka/kafka-streams/ksql-streams.md)
 
 #### Software Design
 
 - **Object-Oriented Analysis and Design**
 - **Design Patterns**
-  - [Singleton Pattern](design-patterns/src/singletonpattern/README.md)
-  - [Factory Pattern](design-patterns/src/factorypattern/README.md)
+    - [Singleton Pattern](design-patterns/src/singletonpattern/README.md)
+    - [Factory Pattern](design-patterns/src/factorypattern/README.md)
 
 #### Containerization & Orchestration
 
 - **Kubernetes**
-  - [Introduction](system-design/kubernetes/kubernetes-intro.md)
-  - [Architecture](system-design/kubernetes/kubernetes-architcture.md)
+    - [Introduction](system-design/kubernetes/kubernetes-intro.md)
+    - [Architecture](system-design/kubernetes/kubernetes-architcture.md)
 
 ---
 
