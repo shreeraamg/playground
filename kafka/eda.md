@@ -163,3 +163,7 @@ Current Balance = +400 - 100 - 200 = 100
 | Event Streaming | When you need durable, replayable event pipelines (analytics, telemetry).           |
 | Event Sourcing  | When you need full auditability or reconstructable system state (finance, banking). |
 
+
+#### Read Also
+
+- [Kafka Architecture](kafka.md)

@@ -35,6 +35,7 @@ and explored over time.
 - [Event Driven Architecture](kafka/eda.md)
 
 - **Apache Kafka**
+    - [Kafka Architecture](kafka/kafka.md)
     - [Zookeeper](kafka/zookeeper.md)
     - [Kafka Streams](kafka/kafka-streams/README.md)
 
