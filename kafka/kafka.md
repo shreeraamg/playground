@@ -5,17 +5,6 @@ It organizes data in topics, runs on brokers and uses partition to provide paral
 
 ![img.png](./images/kafka-architecture.png)
 
-**Table of Contents**
-- [Terminologies](#terminologies)
-  - [Topic](#topic)
-  - [Broker](#broker)
-  - [Partition](#partition)
-  - [Log](#log)
-  - [Producer](#producer)
-  - [Consumer](#consumer)
-  - [Consumer Group](#consumer-group)
-  - [Partition - Consumer Group Scenarios](#partition---consumer-group-scenarios)
-
 ### Terminologies
 
 #### Topic
@@ -99,7 +88,7 @@ This is the analogy.
 
 ### Partition - Consumer Group Scenarios
 
-### One Consumer Multiple Partitions
+#### One Consumer Multiple Partitions
 
 ```mermaid
 graph LR
@@ -120,7 +109,7 @@ graph LR
     A3 --> C1
 ```
 
-### Each Partition with its own consumer
+#### Each Partition with its own consumer
 
 ```mermaid
 graph LR
@@ -144,7 +133,7 @@ graph LR
     A3 --> C4
 ```
 
-### More Partitions than Consumers
+#### More Partitions than Consumers
 
 ```mermaid
 graph LR
@@ -167,7 +156,7 @@ graph LR
     A3 --> C3
 ```
 
-### More Consumers than Partitions
+#### More Consumers than Partitions
 
 ```mermaid
 graph LR
@@ -189,7 +178,7 @@ graph LR
     A2 --> C3
 ```
 
-### Multiple Consumer Groups
+#### Multiple Consumer Groups
 
 ```mermaid
 graph LR
@@ -222,7 +211,7 @@ graph LR
     A3 --> C22
 ```
 
-#### Read Also
+### Read Also
 
 - [Event Driven Architecture](eda.md)
 - [Role of Zookeeper in Kafka](zookeeper.md)
