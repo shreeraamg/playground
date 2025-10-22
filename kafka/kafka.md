@@ -5,7 +5,18 @@ It organizes data in topics, runs on brokers and uses partition to provide paral
 
 ![img.png](./images/kafka-architecture.png)
 
-### Terms and Terminologies
+**Table of Contents**
+- [Terminologies](#terminologies)
+  - [Topic](#topic)
+  - [Broker](#broker)
+  - [Partition](#partition)
+  - [Log](#log)
+  - [Producer](#producer)
+  - [Consumer](#consumer)
+  - [Consumer Group](#consumer-group)
+  - [Partition - Consumer Group Scenarios](#partition---consumer-group-scenarios)
+
+### Terminologies
 
 #### Topic
 
@@ -214,3 +225,4 @@ graph LR
 #### Read Also
 
 - [Event Driven Architecture](eda.md)
+- [Role of Zookeeper in Kafka](zookeeper.md)
