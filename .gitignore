@@ -1,1 +1,6 @@
+# Build Files
 **/build/
+**/out/
+
+# IDE Config
+**/.idea
